@@ -428,7 +428,7 @@ mysql> SELECT
 
 ```
 ## Joins Challenge (6)
-![joins_challenge_6](https://github.com/NoriKaneshige/MySQL_One_To_Many_and_Many_To_Many/blob/master/joins_challenge_6.png)
+![joins_challenge_6](https://github.com/NoriKaneshige/MySQL_One_To_Many_and_Many_To_Many/blob/master/joins_challenge_6_edit.png)
 ```
 mysql> SELECT
     ->   first_name,
