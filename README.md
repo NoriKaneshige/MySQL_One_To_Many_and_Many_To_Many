@@ -115,7 +115,8 @@ mysql> SELECT * FROM customers, orders;
 ```
 
 ## Inner Join
-![](https://github.com/NoriKaneshige//blob/master/.png)
+![inner_join](https://github.com/NoriKaneshige/
+MySQL_One_To_Many_and_Many_To_Many/blob/master/inner_join.png)
 ```
 // IMPLICIT INNER JOIN
 mysql> SELECT * FROM customers, orders
@@ -194,6 +195,8 @@ mysql> SELECT
 3 rows in set (0.20 sec)
 ```
 ## Left Joins
+![left_join](https://github.com/NoriKaneshige/
+MySQL_One_To_Many_and_Many_To_Many/blob/master/left_join.png)
 ```
 mysql> SELECT * FROM customers
     -> LEFT JOIN orders
@@ -249,6 +252,8 @@ mysql> SELECT
 5 rows in set (0.00 sec)
 ```
 ## Right Joins
+![right_join](https://github.com/NoriKaneshige/
+MySQL_One_To_Many_and_Many_To_Many/blob/master/right_join.png)
 ```
 mysql> SELECT * FROM customers
     -> LEFT JOIN orders
@@ -281,9 +286,10 @@ mysql> SELECT * FROM orders
 +------+------------+--------+-------------+----+------------+-----------+------------------+
 7 rows in set (0.00 sec)
 ```
-## Joins Challenge
+## Joins Challenge (1)
 ### Write The Schema and Inset data
-
+![joins_challenge_1](https://github.com/NoriKaneshige/
+MySQL_One_To_Many_and_Many_To_Many/blob/master/joins_challenge_1.png)
 ```
 mysql> CREATE TABLE students (
     ->     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -321,7 +327,9 @@ mysql> INSERT INTO papers (student_id, title, grade ) VALUES
 Query OK, 5 rows affected (0.00 sec)
 Records: 5  Duplicates: 0  Warnings: 0
 ```
-## Joins Challenge (1)
+## Joins Challenge (2)
+![joins_challenge_2](https://github.com/NoriKaneshige/
+MySQL_One_To_Many_and_Many_To_Many/blob/master/joins_challenge_2.png)
 ```
 mysql> SELECT first_name, title, grade
     -> FROM students
@@ -355,7 +363,9 @@ mysql> SELECT first_name, title, grade
 5 rows in set (0.00 sec)
 ```
 
-## Joins Challenge (2)
+## Joins Challenge (3)
+![joins_challenge_3](https://github.com/NoriKaneshige/
+MySQL_One_To_Many_and_Many_To_Many/blob/master/joins_challenge_3.png)
 ```
 mysql> SELECT first_name, title, grade
     -> FROM students
@@ -375,7 +385,9 @@ mysql> SELECT first_name, title, grade
 7 rows in set (0.00 sec)
 ```
 
-## Joins Challenge (3)
+## Joins Challenge (4)
+![joins_challenge_4](https://github.com/NoriKaneshige/
+MySQL_One_To_Many_and_Many_To_Many/blob/master/joins_challenge_4.png)
 ```
 mysql> SELECT
     ->     first_name,
@@ -399,7 +411,9 @@ mysql> SELECT
 
 ```
 
-## Joins Challenge (4)
+## Joins Challenge (5)
+![joins_challenge_5](https://github.com/NoriKaneshige/
+MySQL_One_To_Many_and_Many_To_Many/blob/master/joins_challenge_5.png)
 ```
 mysql> SELECT
     ->     first_name,
@@ -421,7 +435,9 @@ mysql> SELECT
 5 rows in set (0.00 sec)
 
 ```
-## Joins Challenge (5)
+## Joins Challenge (6)
+![joins_challenge_6](https://github.com/NoriKaneshige/
+MySQL_One_To_Many_and_Many_To_Many/blob/master/joins_challenge_6.png)
 ```
 mysql> SELECT
     ->   first_name,
