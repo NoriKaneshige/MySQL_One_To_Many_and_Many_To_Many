@@ -115,6 +115,7 @@ mysql> SELECT * FROM customers, orders;
 ```
 
 ## Inner Join
+![](https://github.com/NoriKaneshige//blob/master/.png)
 ```
 // IMPLICIT INNER JOIN
 mysql> SELECT * FROM customers, orders
